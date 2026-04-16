@@ -1,4 +1,4 @@
-const BASE = 'https://virtual-lab-assistant-project-1.onrender.com/api'
+const BASE = import.meta.env.VITE_API_URL
 
 async function request(method, path, body = null) {
   const options = {
