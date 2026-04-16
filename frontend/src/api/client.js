@@ -1,4 +1,4 @@
-const BASE = '/api'
+const BASE = 'https://virtual-lab-assistant-project-1.onrender.com/api'
 
 async function request(method, path, body = null) {
   const options = {
